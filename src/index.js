@@ -94,6 +94,10 @@ export default class {
       });
   }
 
+  reset() {
+    this.registry = ['__reserved for background__'];
+  }
+
   register(obj) {
     if (this.registry.length >= this.maxColors) {
       return null; // Registry is full
