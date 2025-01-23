@@ -95,7 +95,7 @@ export default class {
   }
 
   reset() {
-    this.registry = ['__reserved for background__'];
+    this.registry = [null];
   }
 
   register(obj) {
